@@ -11,8 +11,9 @@
 		84EA6F6A19C5DA1B00EB2284 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EA6F6919C5DA1B00EB2284 /* ViewController.swift */; };
 		84EA6F6D19C5DA1B00EB2284 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84EA6F6B19C5DA1B00EB2284 /* Main.storyboard */; };
 		84EA6F6F19C5DA1B00EB2284 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84EA6F6E19C5DA1B00EB2284 /* Images.xcassets */; };
-		84EA6F7219C5DA1B00EB2284 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84EA6F7019C5DA1B00EB2284 /* LaunchScreen.xib */; };
 		84EA6F7E19C5DA1C00EB2284 /* postcardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EA6F7D19C5DA1C00EB2284 /* postcardTests.swift */; };
+		84EA6F8919C5DAAC00EB2284 /* AlbertEinsteinStamp.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84EA6F8719C5DAAC00EB2284 /* AlbertEinsteinStamp.jpg */; };
+		84EA6F8A19C5DAAC00EB2284 /* SagradaFamilia.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 84EA6F8819C5DAAC00EB2284 /* SagradaFamilia.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,10 +33,11 @@
 		84EA6F6919C5DA1B00EB2284 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		84EA6F6C19C5DA1B00EB2284 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		84EA6F6E19C5DA1B00EB2284 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		84EA6F7119C5DA1B00EB2284 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		84EA6F7719C5DA1C00EB2284 /* postcardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = postcardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84EA6F7C19C5DA1C00EB2284 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84EA6F7D19C5DA1C00EB2284 /* postcardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = postcardTests.swift; sourceTree = "<group>"; };
+		84EA6F8719C5DAAC00EB2284 /* AlbertEinsteinStamp.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = AlbertEinsteinStamp.jpg; sourceTree = "<group>"; };
+		84EA6F8819C5DAAC00EB2284 /* SagradaFamilia.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = SagradaFamilia.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,7 +83,6 @@
 				84EA6F6919C5DA1B00EB2284 /* ViewController.swift */,
 				84EA6F6B19C5DA1B00EB2284 /* Main.storyboard */,
 				84EA6F6E19C5DA1B00EB2284 /* Images.xcassets */,
-				84EA6F7019C5DA1B00EB2284 /* LaunchScreen.xib */,
 				84EA6F6519C5DA1B00EB2284 /* Supporting Files */,
 			);
 			path = postcard;
@@ -90,6 +91,8 @@
 		84EA6F6519C5DA1B00EB2284 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				84EA6F8719C5DAAC00EB2284 /* AlbertEinsteinStamp.jpg */,
+				84EA6F8819C5DAAC00EB2284 /* SagradaFamilia.jpeg */,
 				84EA6F6619C5DA1B00EB2284 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -192,9 +195,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84EA6F8919C5DAAC00EB2284 /* AlbertEinsteinStamp.jpg in Resources */,
 				84EA6F6D19C5DA1B00EB2284 /* Main.storyboard in Resources */,
-				84EA6F7219C5DA1B00EB2284 /* LaunchScreen.xib in Resources */,
 				84EA6F6F19C5DA1B00EB2284 /* Images.xcassets in Resources */,
+				84EA6F8A19C5DAAC00EB2284 /* SagradaFamilia.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,14 +246,6 @@
 				84EA6F6C19C5DA1B00EB2284 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		84EA6F7019C5DA1B00EB2284 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				84EA6F7119C5DA1B00EB2284 /* Base */,
-			);
-			name = LaunchScreen.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
